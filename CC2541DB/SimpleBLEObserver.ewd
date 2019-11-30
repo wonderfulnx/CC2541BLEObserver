@@ -3,7 +3,7 @@
 <project>
   <fileVersion>2</fileVersion>
   <configuration>
-    <name>CC2541EM Observer</name>
+    <name>CC2541EM</name>
     <toolchain>
       <name>8051</name>
     </toolchain>
@@ -37,7 +37,7 @@
         </option>
         <option>
           <name>MemOverride</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>OCProcessor</name>
@@ -117,7 +117,7 @@
         </option>
         <option>
           <name>DdfFile master</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\ioCC2541F256.ddf</state>
+          <state>$TOOLKIT_DIR$\config\devices\_generic\io8052.ddf</state>
         </option>
         <option>
           <name>OCImagesOffset1</name>
@@ -195,7 +195,7 @@
         </option>
         <option>
           <name>ChipconEraseFlash</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>ChipconRetainMemory</name>
